@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KidsScreenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/all_kids_babies"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="205,500 ads"
+                    android:textColor="#6D6A6A"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/clothes_kids_babies"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="50,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/toys"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="100,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cribs_strollers"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="75,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/accessories"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="135,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/others_kids_babies"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="35,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

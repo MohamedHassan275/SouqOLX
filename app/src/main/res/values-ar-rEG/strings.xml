@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اوليكس</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="vehicles" translatable="false">المركبات</string>
+    <string name="builds" translatable="false">عقارات</string>
+    <string name="mobils" translatable="false">موبيلات واكسسواراتها </string>
+    <string name="electronic" translatable="false">الكترونيات واجهزة منزلية </string>
+    <string name="home_garden" translatable="false">المنزل والحديقة </string>
+    <string name="fashion_beauty" translatable="false">الموضة والجمال  </string>
+    <string name="pets" translatable="false">  حيوانات اليفة</string>
+    <string name="kids_babies" translatable="false">  مستلزمات اطفال</string>
+    <string name="muisc" translatable="false"> موسيقي </string>
+    <string name="business" translatable="false">  تجارة وصناعة</string>
+    <string name="works" translatable="false">  وظائف</string>
+    <string name="sporting_bike" translatable="false">  دراجات </string>
+    <string name="services" translatable="false">  خدامات</string>
+
+    <string name="home_menu" translatable="false">الصفحة الرئيسية</string>
+    <string name="browse_menu" translatable="false">تصفح الاعلانات</string>
+    <string name="my_ads_menu" translatable="false">اعلاناتي</string>
+    <string name="chats_menu" translatable="false">دردشات</string>
+    <string name="favorites_menu" translatable="false">اعلاناتي المفضلة</string>
+    <string name="place_an_ad_menu" translatable="false">بيع حاجاتك ببلاش +</string>
+    <string name="contact_menu" translatable="false">اتصل بنا</string>
+    <string name="chate_with_us_menu" translatable="false">راسلنا علي الرسائل</string>
+    <string name="choose_country_menu" translatable="false">اختار البلد</string>
+    <string name="choose_language_menu" translatable="false">Choose language</string>
+    <string name="about_app_menu" translatable="false">عن التطبيق</string>
+    <string name="log_out_menu" translatable="false">تسجيل الخروج</string>
+
+    <string name="all_vehicles" translatable="false">كل الاعلانات في عربيات وقطع الغيار</string>
+    <string name="boats" translatable="false">يخوت</string>
+    <string name="car_accessories" translatable="false">اكسسوارات عربيات</string>
+    <string name="cars" translatable="false">عربيات</string>
+    <string name="motorecycles" translatable="false">موتوسيكلات</string>
+    <string name="other_vehicles" translatable="false">وسائل نقل اخري</string>
+    <string name="spare_parts" translatable="false">قطع غيار</string>
+    <string name="trucks_buses" translatable="false">اتوبيسات وعربيات نقل</string>
+
+
+    <string name="all_propertes" translatable="false">كل الاعلانات في عقارات</string>
+    <string name="propertes_rent" translatable="false">عقارات للايجار</string>
+    <string name="propertes_sale" translatable="false">عقارات للبيع</string>
+
+
+    <string name="all_mobile" translatable="false">كل الاعلانات في موبيلات واكسسواراتها </string>
+    <string name="mobile_phone" translatable="false">موبيلات</string>
+    <string name="mobile_accessories" translatable="false">اكسسوارات موبيلات</string>
+
+    <string name="all_electronics" translatable="false">كل الاعلانات في الكترونيات واجهزة منزلية</string>
+    <string name="tv_audio_video" translatable="false">تلفزيونات وصوتيات</string>
+    <string name="computer_tablets" translatable="false">كمبيوتر وتابلت</string>
+    <string name="video_games_consoles" translatable="false">اجهزة والعاب فيديو</string>
+    <string name="cameras_imaging" translatable="false">كاميرا وتصوير</string>
+    <string name="home_appliances" translatable="false">اجهزة منزلية</string>
+
+
+    <string name="all_home_garden" translatable="false">كل الاعلانات في المنزل والحديقة </string>
+    <string name="decoration_accessories" translatable="false">اكسسوارات وزينة</string>
+    <string name="furniture" translatable="false">اثاث</string>
+    <string name="garden_outdoor" translatable="false">الحدائق والمناطق الخارجية</string>
+    <string name="kitchenware" translatable="false">معدات وادوات طبخ</string>
+    <string name="other_home_garden" translatable="false">منزل وحديقة اخري</string>
+
+
+    <string name="all_fashions_beauty" translatable="false">كل الاعلانات في الموضة والجمال</string>
+    <string name="clothing_accessories" translatable="false">ملابس واكسسوارت</string>
+    <string name="jewelry_watches" translatable="false">ساعات ومجوهرات</string>
+    <string name="health_beauty_cosmetics" translatable="false">صحة وجمال</string>
+
+
+    <string name="all_pets" translatable="false">كل الاعلانات في حيونات اليفة</string>
+    <string name="cats" translatable="false">قطط</string>
+    <string name="dogs" translatable="false">كلاب</string>
+    <string name="horses" translatable="false">خيل</string>
+    <string name="fishes" translatable="false">اسماك</string>
+    <string name="birds" translatable="false">طيور</string>
+    <string name="other_pets" translatable="false">حيونات اخري</string>
+
+
+    <string name="all_kids_babies" translatable="false">كل الاعلانات في مستلزمات اطفال</string>
+    <string name="clothes_kids_babies" translatable="false">ملابس الاطفال والرضع</string>
+    <string name="toys" translatable="false">لعب اطفال</string>
+    <string name="cribs_strollers" translatable="false">سراير وعربات اطفال</string>
+    <string name="accessories" translatable="false">اكسسوارات</string>
+    <string name="others_kids_babies" translatable="false">مستلزمات اطفال اخري</string>
+
+
+    <string name="all_sporting_bikes" translatable="false">كل الاعلانات في دراجات ومعدات رياضية</string>
+    <string name="sporting_goods" translatable="false">معدات رياضية</string>
+    <string name="bikes" translatable="false">دراجات</string>
+    <string name="outdoor_equipment" translatable="false">معدات رياضية خارجية</string>
+
+
+    <string name="all_hobbies_music_art_books" translatable="false">كل الاعلانات في موسيقي وفنون وكتب</string>
+    <string name="antiques_collectibles" translatable="false">الآت موسيقية</string>
+    <string name="books" translatable="false">كتب</string>
+    <string name="movies_music" translatable="false">افلام وموسيقي</string>
+    <string name="musical_instruments" translatable="false">تحف ومقتنيات</string>
+    <string name="other_items" translatable="false">اغراض اخري</string>
+    <string name="study_tools" translatable="false">ادوات دراسية</string>
+    <string name="tickets_vouchers" translatable="false">تذاكر وقسائم</string>
+
+    <string name="all_jobs" translatable="false">كل الاعلانات في وظائف</string>
+    <string name="accounting" translatable="false">محاسبة</string>
+    <string name="architecture_engineering" translatable="false">عمارة - هندسة</string>
+    <string name="art_desing" translatable="false">فنون - تمصيم</string>
+    <string name="business_development" translatable="false">تطوير الاعمال</string>
+    <string name="construction" translatable="false">انشاءات</string>
+    <string name="consulting" translatable="false">عمل استشاري</string>
+    <string name="education" translatable="false">تعليم</string>
+    <string name="executive" translatable="false">عمل اداري</string>
+    <string name="hr_recruiting" translatable="false">توظيف - موارد بشرية</string>
+    <string name="hospitality" translatable="false">سياحة وفنادق وضيافة</string>
+    <string name="it_telecom" translatable="false">تكنولوجيا المعلومات - اتصالات</string>
+    <string name="jobs_wanted" translatable="false">يبجث عن عمل</string>
+    <string name="marketing_pr" translatable="false">تسويق وعلاقات عامة</string>
+    <string name="medical_health" translatable="false">طب - صحة</string>
+    <string name="retail" translatable="false">محلات تجارية</string>
+    <string name="sales" translatable="false">مبيعات</string>
+    <string name="secretarial" translatable="false">سكرتارية</string>
+    <string name="other_jobs" translatable="false">وظائف اخري</string>
+
+    <string name="all_business_industrial" translatable="false">كل الاعلانات في تجارة وصناعة</string>
+    <string name="factories_equipment" translatable="false">معدات مصانع</string>
+    <string name="medical_equipment" translatable="false">معدات طبية</string>
+    <string name="heavy_equipment" translatable="false">معدات ثقيلة</string>
+    <string name="restaurants_equipment" translatable="false">مستلزمات مطاعم</string>
+    <string name="shops_liquidation" translatable="false">تصمية محلات</string>
+    <string name="other_business_industrial" translatable="false">تجارة وصناعة اخري</string>
+
+
+    <string name="all_services" translatable="false">كل الاعلانات في خدمات</string>
+    <string name="business_services" translatable="false">اعمال صيانة</string>
+    <string name="car_repairs" translatable="false">تصليح عربيات</string>
+    <string name="domestic_services" translatable="false">توصيل وشحن</string>
+    <string name="events" translatable="false">حفلات</string>
+    <string name="home_services" translatable="false">خدمات منزلية</string>
+    <string name="movers" translatable="false">خدمات شركات</string>
+    <string name="other_services" translatable="false">خدمات اخري</string>
+    <string name="personal_services" translatable="false">خدمات شخصية</string>
+    <string name="pets_sevices" translatable="false">حيوانات اليفة</string>
+    <string name="private_tutors" translatable="false">دروس خصوصية</string>
+</resources>

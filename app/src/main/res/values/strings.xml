@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">OLX</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="vehicles" translatable="false">Vehicles</string>
+    <string name="builds" translatable="false">Properties</string>
+    <string name="mobils" translatable="false">Mobils Phone &amp; Accessories</string>
+    <string name="electronic" translatable="false">Electronics &amp; Home Application</string>
+    <string name="home_garden" translatable="false">Home &amp; Garden</string>
+    <string name="fashion_beauty" translatable="false">Fashion Beauty</string>
+    <string name="pets" translatable="false">Pets</string>
+    <string name="kids_babies" translatable="false">Kids Babies</string>
+    <string name="muisc" translatable="false">Hobbies,Music,Art &amp; Books</string>
+    <string name="business" translatable="false">Business &amp; Industrial</string>
+    <string name="works" translatable="false">Jops</string>
+    <string name="services" translatable="false">Services</string>
+    <string name="sporting_bike" translatable="false">Sporting Goods &amp; Bike</string>
+
+    <string name="home_menu" translatable="false">Home</string>
+    <string name="browse_menu" translatable="false">Browse Ads</string>
+    <string name="my_ads_menu" translatable="false">My Ads</string>
+    <string name="chats_menu" translatable="false">Chats</string>
+    <string name="favorites_menu" translatable="false">Favourites</string>
+    <string name="place_an_ad_menu" translatable="false"> + Place an Ad</string>
+    <string name="contact_menu" translatable="false">Contact</string>
+    <string name="chate_with_us_menu" translatable="false">Chate With Us</string>
+    <string name="choose_country_menu" translatable="false">Choose Country</string>
+    <string name="choose_language_menu" translatable="false">Choose language</string>
+    <string name="about_app_menu" translatable="false">About App</string>
+    <string name="khadadddmat" translatable="false">Khadamat</string>
+    <string name="log_out_menu" translatable="false">Log out</string>
+
+    <string name="all_vehicles" translatable="false">All in Vehicles</string>
+    <string name="boats" translatable="false">Boats</string>
+    <string name="car_accessories" translatable="false">Car Accessories</string>
+    <string name="cars" translatable="false">Cars</string>
+    <string name="motorecycles" translatable="false">Motorecycles</string>
+    <string name="other_vehicles" translatable="false">Other Vehicles</string>
+    <string name="spare_parts" translatable="false">Spare parts</string>
+    <string name="trucks_buses" translatable="false">Trucks &amp; buses</string>
+
+    <string name="all_propertes" translatable="false">All in Properties</string>
+    <string name="propertes_rent" translatable="false">Properties For Rent</string>
+    <string name="propertes_sale" translatable="false">Properties For Sale</string>
+
+
+    <string name="all_mobile" translatable="false">All in Mobile Phones &amp; Accessories </string>
+    <string name="mobile_phone" translatable="false">Mobile Phones</string>
+    <string name="mobile_accessories" translatable="false">Mobile Accessories</string>
+
+    <string name="all_electronics" translatable="false">All in Electronics &amp; Home Appliances</string>
+    <string name="tv_audio_video" translatable="false">Tv - Audio - Video</string>
+    <string name="computer_tablets" translatable="false">Computers - Tablets</string>
+    <string name="video_games_consoles" translatable="false">Video Games - Consoles</string>
+    <string name="cameras_imaging" translatable="false">Cameras - Imaging</string>
+    <string name="home_appliances" translatable="false">Home - Appliances</string>
+
+
+    <string name="all_home_garden" translatable="false">All in home &amp; Garden</string>
+    <string name="decoration_accessories" translatable="false">Decoration - Accessories</string>
+    <string name="furniture" translatable="false">Furniture</string>
+    <string name="garden_outdoor" translatable="false">Garden - Outdoor</string>
+    <string name="kitchenware" translatable="false">Kitchenware</string>
+    <string name="other_home_garden" translatable="false">Other Home &amp; Garden</string>
+
+
+    <string name="all_fashions_beauty" translatable="false">All in Fashions &amp; Beauty</string>
+    <string name="clothing_accessories" translatable="false">Clothing - Accessories</string>
+    <string name="jewelry_watches" translatable="false">Jewelry - Watches</string>
+    <string name="health_beauty_cosmetics" translatable="false">Health - Beauty - Cosmetics</string>
+
+
+    <string name="all_pets" translatable="false">All in Pets</string>
+    <string name="cats" translatable="false">Cats</string>
+    <string name="dogs" translatable="false">Dogs</string>
+    <string name="horses" translatable="false">Horses</string>
+    <string name="fishes" translatable="false">Fishes</string>
+    <string name="birds" translatable="false">Birds</string>
+    <string name="other_pets" translatable="false">Other Pets</string>
+
+
+    <string name="all_kids_babies" translatable="false">All in Kids &amp; Babies</string>
+    <string name="clothes_kids_babies" translatable="false">Clothes for Kids And babies</string>
+    <string name="toys" translatable="false">Toys</string>
+    <string name="cribs_strollers" translatable="false">Cribs - Strollers</string>
+    <string name="accessories" translatable="false">Accessories</string>
+    <string name="others_kids_babies" translatable="false">Others kids &amp; Babies</string>
+
+
+    <string name="all_sporting_bikes" translatable="false">All in Sporting Goods &amp; Bikes</string>
+    <string name="sporting_goods" translatable="false">Sporting Goods</string>
+    <string name="bikes" translatable="false">Bikes</string>
+    <string name="outdoor_equipment" translatable="false">Outdoor Equipment</string>
+
+
+    <string name="all_hobbies_music_art_books" translatable="false">All in Hobbies, Music, Art &amp; Books</string>
+    <string name="antiques_collectibles" translatable="false">Antiques - Collectibles</string>
+    <string name="books" translatable="false">Books</string>
+    <string name="movies_music" translatable="false">Movies - Music</string>
+    <string name="musical_instruments" translatable="false">Musical instruments</string>
+    <string name="other_items" translatable="false">Other items</string>
+    <string name="study_tools" translatable="false">Study tools</string>
+    <string name="tickets_vouchers" translatable="false">Tickets - Vouchers</string>
+
+    <string name="all_jobs" translatable="false">All in Jobs</string>
+    <string name="accounting" translatable="false">Accounting</string>
+    <string name="architecture_engineering" translatable="false">Architecture - Engineering</string>
+    <string name="art_desing" translatable="false">Art - Desing</string>
+    <string name="business_development" translatable="false">Business Development</string>
+    <string name="construction" translatable="false">Construction</string>
+    <string name="consulting" translatable="false">Consulting</string>
+    <string name="education" translatable="false">Education</string>
+    <string name="executive" translatable="false">Executive</string>
+    <string name="hr_recruiting" translatable="false">Hr Recruiting</string>
+    <string name="hospitality" translatable="false">Hospitality</string>
+    <string name="it_telecom" translatable="false">IT - Telecom</string>
+    <string name="jobs_wanted" translatable="false">Jobs Wanted</string>
+    <string name="marketing_pr" translatable="false">Marketing - PR</string>
+    <string name="medical_health" translatable="false">Medical Health</string>
+    <string name="retail" translatable="false">Retail</string>
+    <string name="sales" translatable="false">Sales</string>
+    <string name="secretarial" translatable="false">Secretarial</string>
+    <string name="other_jobs" translatable="false">Other Jobs</string>
+
+    <string name="all_business_industrial" translatable="false">All in Business &amp; Industrial</string>
+    <string name="factories_equipment" translatable="false">Factories Equipment</string>
+    <string name="medical_equipment" translatable="false">Medical Equipment</string>
+    <string name="heavy_equipment" translatable="false">Heavy Equipment</string>
+    <string name="restaurants_equipment" translatable="false">Restaurants Equipment</string>
+    <string name="shops_liquidation" translatable="false">Shops Liquidation</string>
+    <string name="other_business_industrial" translatable="false">Other  Business &amp; Industrial</string>
+
+
+    <string name="all_services" translatable="false">All in Services</string>
+    <string name="business_services" translatable="false">Business Services</string>
+    <string name="car_repairs" translatable="false">Car Repairs</string>
+    <string name="domestic_services" translatable="false">Domestic Services</string>
+    <string name="events" translatable="false">Events</string>
+    <string name="home_services" translatable="false">Home</string>
+    <string name="movers" translatable="false">Movers</string>
+    <string name="other_services" translatable="false">Other Services</string>
+    <string name="personal_services" translatable="false">Personal Services</string>
+    <string name="pets_sevices" translatable="false">Pets Sevices</string>
+    <string name="private_tutors" translatable="false">Private Tutors</string>
+
+</resources>
