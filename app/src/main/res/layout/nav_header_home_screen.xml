@@ -30,7 +30,7 @@
         <TextView
             android:textColor="#FFFFFF"
             android:gravity="center"
-            android:id="@+id/login"
+            android:id="@+id/Tv_login_menu"
             android:textSize="17sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         <TextView
             android:textColor="#FFFFFF"
             android:gravity="center"
-            android:id="@+id/register"
+            android:id="@+id/Tv_register_menu"
             android:textSize="17sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

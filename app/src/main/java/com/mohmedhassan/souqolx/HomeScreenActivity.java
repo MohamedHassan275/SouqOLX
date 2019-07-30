@@ -12,10 +12,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class HomeScreenActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    TextView Tv_login_menu,Tv_register_menu;
     LinearLayout linearlayout_PropertiesAndBuild, linearLayout_Vehicles, linearlayout_mobils, linearlayout_electronic,
             linearlayout_homeAndGarden, linearlayout_fashions, linearlayout_kids, linearlayout_pets, linearlayout_SportingAndBikes,
             linearlayout_HobbiesAndMuisc, linearlayout_jobs, linearlayout_business, linearlayout_services;
@@ -24,10 +26,11 @@ public class HomeScreenActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
+
         HomeScreenActivity.this.setTitle("OLX");
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DivineView();
         SetonClickLisner();
@@ -57,6 +60,9 @@ public class HomeScreenActivity extends AppCompatActivity
         linearlayout_jobs = findViewById(R.id.linearlayout_jobs);
         linearlayout_business = findViewById(R.id.linearlayout_business);
         linearlayout_services = findViewById(R.id.linearlayout_services);
+        /*Tv_login_menu = findViewById(R.id.Tv_login_menu);
+        Tv_register_menu = findViewById(R.id.Tv_register_menu);*/
+
 
     }
 
@@ -179,6 +185,26 @@ public class HomeScreenActivity extends AppCompatActivity
 
             }
         });
+      /*  Tv_login_menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(HomeScreenActivity.this,LoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
+        Tv_register_menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(HomeScreenActivity.this,RegisterActivity.class);
+                startActivity(intent);
+
+            }
+        });*/
+
+
     }
     @Override
     public void onBackPressed() {

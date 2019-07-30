@@ -145,4 +145,18 @@
     <string name="personal_services" translatable="false">خدمات شخصية</string>
     <string name="pets_sevices" translatable="false">حيوانات اليفة</string>
     <string name="private_tutors" translatable="false">دروس خصوصية</string>
+
+    <string name="all_cars_vehicles" translatable="false">كل السيارات</string>
+    <string name="honda_car" translatable="false">هوندا</string>
+    <string name="byd_car" translatable="false">بي واي دي</string>
+    <string name="bmw_car" translatable="false">بي ام دبليو</string>
+    <string name="audi_car" translatable="false">اودي</string>
+    <string name="faw_car" translatable="false">فيو</string>
+    <string name="ferrari_car" translatable="false">فيراري</string>
+    <string name="fait_car" translatable="false">فيات</string>
+    <string name="ford_car" translatable="false">فورد</string>
+    <string name="geely_car" translatable="false">جيلي</string>
+
+
+
 </resources>

@@ -145,4 +145,16 @@
     <string name="pets_sevices" translatable="false">Pets Sevices</string>
     <string name="private_tutors" translatable="false">Private Tutors</string>
 
+    <string name="all_cars_vehicles" translatable="false">All in Cars</string>
+    <string name="honda_car" translatable="false">Honda</string>
+    <string name="byd_car" translatable="false">Byd</string>
+    <string name="bmw_car" translatable="false">BMW</string>
+    <string name="audi_car" translatable="false">Audi</string>
+    <string name="faw_car" translatable="false">Faw</string>
+    <string name="ferrari_car" translatable="false">Ferrari</string>
+    <string name="fait_car" translatable="false">Fait</string>
+    <string name="ford_car" translatable="false">Ford</string>
+    <string name="geely_car" translatable="false">Geely</string>
+
+
 </resources>

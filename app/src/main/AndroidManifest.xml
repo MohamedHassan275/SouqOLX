@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SportingAndBikesScreenAcitivty"></activity>
+        <activity android:name=".AdsDetailsActivity"></activity>
+        <activity android:name=".PlacedAdDetailsActivity" />
+        <activity android:name=".Ads.AdDetaisActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".BuildsForSaleScreenActivity" />
+        <activity android:name=".BuildsForRendScreenActivity" />
+        <activity android:name=".CarsVehiclesScreenActitvity" />
+        <activity android:name=".SportingAndBikesScreenAcitivty" />
         <activity android:name=".ServicesScreenActivity" />
         <activity android:name=".BusinessScreenActivity" />
         <activity android:name=".JobsScreenActivity" />

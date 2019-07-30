@@ -49,6 +49,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
+                android:id="@+id/linerlayout_boats"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -79,7 +80,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_car_accessories"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -110,28 +113,51 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_CarsVihicles"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/cars"
+                        android:textColor="#635F5F"
+                        android:textSize="17sp" />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="50,500 ads"
+                        android:textColor="#928D8D"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/cars"
-                    android:textColor="#635F5F"
-                    android:textSize="17sp" />
-                <TextView
-                    android:layout_marginTop="2dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="75,500 ads"
-                    android:textColor="#928D8D"
-                    android:textSize="12sp" />
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/sham_right" />
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <View
@@ -141,7 +167,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_motorecycles"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -172,7 +200,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_other_vehicles"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -203,7 +233,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_spare_parts"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -234,7 +266,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/linerlayout_trucks_buses"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"

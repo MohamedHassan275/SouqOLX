@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BusinessScreenActivity">
+    tools:context=".CarsVehiclesScreenActitvity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,8 +26,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/all_business_industrial"
-                    android:textColor="#000"
+                    android:text="@string/all_cars_vehicles"
+                    android:textColor="#464343"
                     android:textSize="17sp" />
                 <TextView
                     android:layout_marginTop="2dp"
@@ -48,7 +48,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_factories_equipment"
+                android:id="@+id/linearlayout_car_honda"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/factories_equipment"
+                    android:text="@string/honda_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -81,7 +81,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_medical_equipment"
+                android:id="@+id/linearlayout_car_bmw_car"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/medical_equipment"
+                    android:text="@string/bmw_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -114,7 +114,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_heavy_equipment"
+                android:id="@+id/linearlayout_car_ferrari_car"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -125,7 +125,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/heavy_equipment"
+                    android:text="@string/ferrari_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -133,9 +133,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="75,500 ads"
+                    android:text="50,500 ads"
                     android:textColor="#928D8D"
                     android:textSize="12sp" />
+
+
             </LinearLayout>
 
             <View
@@ -147,7 +149,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_restaurants_equipment"
+                android:id="@+id/linearlayout_car_byd_car"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -158,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/restaurants_equipment"
+                    android:text="@string/byd_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -180,7 +182,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_shops_liquidation"
+                android:id="@+id/linearlayout_car_fait_car"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -191,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/shops_liquidation"
+                    android:text="@string/fait_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -213,7 +215,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
-                android:id="@+id/lineaelayout_other_business_industrial"
+                android:id="@+id/linearlayout_car_geely_car"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -224,7 +226,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/other_business_industrial"
+                    android:text="@string/geely_car"
                     android:textColor="#635F5F"
                     android:textSize="17sp" />
                 <TextView
@@ -237,6 +239,99 @@
                     android:textSize="12sp" />
             </LinearLayout>
 
+            <View
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_car_faw_car"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/faw_car"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="150,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#949292"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_car_audi_car"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/audi_car"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="50,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_car_ford_car"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ford_car"
+                    android:textColor="#635F5F"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="50,500 ads"
+                    android:textColor="#928D8D"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
         </LinearLayout>
 
     </ScrollView>
