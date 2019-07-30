@@ -48,6 +48,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
+                android:id="@+id/lineaelayout_mobile_phone"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -78,7 +79,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_mobile_accessories"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
