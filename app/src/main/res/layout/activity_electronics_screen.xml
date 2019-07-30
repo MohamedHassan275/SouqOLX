@@ -48,6 +48,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
+                android:id="@+id/lineaelayout_audio_video"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -78,7 +79,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_computer_tablets"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -109,7 +112,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_video_games_consoles"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -140,7 +145,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_cameras_imaging"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -171,7 +178,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_home_appliances"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"

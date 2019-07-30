@@ -48,6 +48,7 @@
                 android:layout_marginRight="10dp"/>
 
             <LinearLayout
+                android:id="@+id/lineaelayout_decoration_accessories"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="horizontal"
@@ -99,7 +100,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_furniture"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -130,7 +133,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_garden_outdoor"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -161,7 +166,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_kitchenware"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"
@@ -192,7 +199,9 @@
                 android:background="#949292"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
+
             <LinearLayout
+                android:id="@+id/lineaelayout_other_home_garden"
                 android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:orientation="vertical"

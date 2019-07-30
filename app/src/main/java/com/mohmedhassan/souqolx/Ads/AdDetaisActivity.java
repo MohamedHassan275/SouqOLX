@@ -39,7 +39,7 @@ public class AdDetaisActivity extends AppCompatActivity {
     private void AdsItem() {
 
         AdsModel adsModel = new AdsModel(R.drawable.home,"مطلوب مبرمج اندرويد و Ios","3500","27 june",
-                "Nasr City",null);
+                "Nasr City","Featured");
         adsModels.add(adsModel);
 
         adsModel = new AdsModel(R.drawable.cars,"مطلوب مبرمج ويب و Ios","3000","29 june",
@@ -55,7 +55,7 @@ public class AdDetaisActivity extends AppCompatActivity {
         adsModels.add(adsModel);
 
         adsModel = new AdsModel(R.drawable.business,"مبرمج اندرويد و Ios","4000","1 august",
-                "Helwan","Featured");
+                "Helwan",null);
         adsModels.add(adsModel);
 
         adsModel = new AdsModel(R.drawable.mobiles,"مطلوب UI / UX","5000","1 septemper",
