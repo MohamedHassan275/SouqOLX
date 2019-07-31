@@ -30,6 +30,8 @@
     <string name="choose_language_menu" translatable="false">Choose language</string>
     <string name="about_app_menu" translatable="false">About App</string>
     <string name="khadadddmat" translatable="false">Khadamat</string>
+
+    <string name="log_in_menu" translatable="false">Log in</string>
     <string name="log_out_menu" translatable="false">Log out</string>
 
     <string name="all_vehicles" translatable="false">All in Vehicles</string>

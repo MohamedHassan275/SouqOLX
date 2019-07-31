@@ -30,6 +30,7 @@
     <string name="choose_country_menu" translatable="false">اختار البلد</string>
     <string name="choose_language_menu" translatable="false">Choose language</string>
     <string name="about_app_menu" translatable="false">عن التطبيق</string>
+    <string name="log_in_menu" translatable="false">تسجيل الدخول</string>
     <string name="log_out_menu" translatable="false">تسجيل الخروج</string>
 
     <string name="all_vehicles" translatable="false">كل الاعلانات في عربيات وقطع الغيار</string>

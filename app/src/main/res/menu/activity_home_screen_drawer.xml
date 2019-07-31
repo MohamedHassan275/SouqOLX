@@ -46,6 +46,13 @@
                 android:id="@+id/about_app_menu"
                 android:title="@string/about_app_menu" />
             <item
+                android:id="@+id/login_app_menu"
+                android:title="@string/log_in_menu" />
+            <item
+                android:visible="false"
+                android:id="@+id/logOut_app_menu"
+                android:title="@string/log_out_menu" />
+            <item
                 android:visible="false"
                 android:id="@+id/send"
                 android:title=" " />

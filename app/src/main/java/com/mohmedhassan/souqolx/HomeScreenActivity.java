@@ -17,10 +17,11 @@ import android.widget.TextView;
 public class HomeScreenActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    TextView Tv_login_menu,Tv_register_menu;
+    TextView Tv_login_sideMenu, Tv_register_sideMenu;
     LinearLayout linearlayout_PropertiesAndBuild, linearLayout_Vehicles, linearlayout_mobils, linearlayout_electronic,
             linearlayout_homeAndGarden, linearlayout_fashions, linearlayout_kids, linearlayout_pets, linearlayout_SportingAndBikes,
             linearlayout_HobbiesAndMuisc, linearlayout_jobs, linearlayout_business, linearlayout_services;
+    View headerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,12 @@ public class HomeScreenActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        headerView = getLayoutInflater().inflate(R.layout.nav_header_home_screen, navigationView, false);
+        navigationView.addHeaderView(headerView);
+
+
+
     }
 
     private void DivineView() {
@@ -60,8 +67,8 @@ public class HomeScreenActivity extends AppCompatActivity
         linearlayout_jobs = findViewById(R.id.linearlayout_jobs);
         linearlayout_business = findViewById(R.id.linearlayout_business);
         linearlayout_services = findViewById(R.id.linearlayout_services);
-        /*Tv_login_menu = findViewById(R.id.Tv_login_menu);
-        Tv_register_menu = findViewById(R.id.Tv_register_menu);*/
+       // Tv_login_sideMenu = headerView.findViewById(R.id.tv_login_sideMenu);
+       // Tv_register_sideMenu = headerView.findViewById(R.id.tv_register_sideMenu);
 
 
     }
@@ -185,7 +192,7 @@ public class HomeScreenActivity extends AppCompatActivity
 
             }
         });
-      /*  Tv_login_menu.setOnClickListener(new View.OnClickListener() {
+      /* Tv_login_sideMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -194,7 +201,7 @@ public class HomeScreenActivity extends AppCompatActivity
 
             }
         });
-        Tv_register_menu.setOnClickListener(new View.OnClickListener() {
+        Tv_register_sideMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -245,47 +252,51 @@ public class HomeScreenActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.home_menu) {
-          /*  Intent intent = new Intent(MainActivity.this,BuyAndSell.class);
+          /*  Intent intent = new Intent(HomeScreenActivity.this,BuyAndSell.class);
             startActivity(intent);*/
         } else if (id == R.id.browse_menu) {
-         /*   Intent intent = new Intent(MainActivity.this,About_Us.class);
+         /*   Intent intent = new Intent(HomeScreenActivity.this,About_Us.class);
             startActivity(intent);*/
 
         } else if (id == R.id.my_ads_menu) {
-           /* Intent intent = new Intent(MainActivity.this,Country_Souq.class);
+           /* Intent intent = new Intent(HomeScreenActivity.this,Country_Souq.class);
             startActivity(intent);*/
 
         } else if (id == R.id.chats_menu) {
-          /*  Intent intent = new Intent(MainActivity.this,Login.class);
+          /*  Intent intent = new Intent(HomeScreenActivity.this,Login.class);
             startActivity(intent);*/
 
         } else if (id == R.id.favorites_menu) {
-          /*  Intent intent = new Intent(MainActivity.this,Login.class);
+          /*  Intent intent = new Intent(HomeScreenActivity.this,Login.class);
             startActivity(intent);*/
 
         } else if (id == R.id.place_an_ad_menu) {
-          /*  Intent intent = new Intent(MainActivity.this,Login.class);
+          /*  Intent intent = new Intent(HomeScreenActivity.this,Login.class);
             startActivity(intent);*/
 
         } else if (id == R.id.contact_menu) {
-           /*  Intent intent = new Intent(MainActivity.this,Login.class);
+           /*  Intent intent = new Intent(HomeScreenActivity.this,Login.class);
             startActivity(intent);*/
 
         } else if (id == R.id.chate_with_us_menu) {
-           /* Intent intent = new Intent(MainActivity.this,Register.class);
+           /* Intent intent = new Intent(HomeScreenActivity.this,Register.class);
             startActivity(intent);*/
 
         } else if (id == R.id.choose_country_menu) {
-           /* Intent intent = new Intent(MainActivity.this,Register.class);
+           /* Intent intent = new Intent(HomeScreenActivity.this,Register.class);
             startActivity(intent);*/
 
         } else if (id == R.id.choose_language_menu) {
-           /* Intent intent = new Intent(MainActivity.this,Register.class);
+           /* Intent intent = new Intent(HomeScreenActivity.this,Register.class);
             startActivity(intent);*/
 
         } else if (id == R.id.about_app_menu) {
-           /* Intent intent = new Intent(MainActivity.this,Register.class);
+           /* Intent intent = new Intent(HomeScreenActivity.this,Register.class);
             startActivity(intent);*/
+
+        }else if (id == R.id.login_app_menu) {
+            Intent intent = new Intent(HomeScreenActivity.this,LoginActivity.class);
+            startActivity(intent);
 
         }
 
