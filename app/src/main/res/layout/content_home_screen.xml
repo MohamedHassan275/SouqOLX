@@ -151,6 +151,7 @@
 
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -916,7 +917,7 @@
         </ScrollView>
 
         <Button
-            android:id="@+id/btnLogin_login"
+            android:id="@+id/btnAddAds"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="50dp"

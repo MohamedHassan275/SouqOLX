@@ -158,6 +158,12 @@
     <string name="ford_car" translatable="false">فورد</string>
     <string name="geely_car" translatable="false">جيلي</string>
 
+    <string-array name="category_item">
+        <item>Select Category</item>
+    </string-array>
 
+    <string-array name="location_item">
+        <item>Select Location</item>
+    </string-array>
 
 </resources>

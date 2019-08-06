@@ -11,17 +11,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.mohmedhassan.souqolx.Create_Ads.CreateAdsActivity;
 
 public class HomeScreenActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    NavigationView navigationView;
     TextView Tv_login_sideMenu, Tv_register_sideMenu;
     LinearLayout linearlayout_PropertiesAndBuild, linearLayout_Vehicles, linearlayout_mobils, linearlayout_electronic,
             linearlayout_homeAndGarden, linearlayout_fashions, linearlayout_kids, linearlayout_pets, linearlayout_SportingAndBikes,
             linearlayout_HobbiesAndMuisc, linearlayout_jobs, linearlayout_business, linearlayout_services;
-    View headerView;
+    Button btnAddAds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +46,9 @@ public class HomeScreenActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        headerView = getLayoutInflater().inflate(R.layout.nav_header_home_screen, navigationView, false);
-        navigationView.addHeaderView(headerView);
 
 
 
@@ -67,8 +69,9 @@ public class HomeScreenActivity extends AppCompatActivity
         linearlayout_jobs = findViewById(R.id.linearlayout_jobs);
         linearlayout_business = findViewById(R.id.linearlayout_business);
         linearlayout_services = findViewById(R.id.linearlayout_services);
-       // Tv_login_sideMenu = headerView.findViewById(R.id.tv_login_sideMenu);
-       // Tv_register_sideMenu = headerView.findViewById(R.id.tv_register_sideMenu);
+        btnAddAds = findViewById(R.id.btnAddAds);
+      /*  Tv_login_sideMenu = navigationView.findViewById(R.id.tv_login_sideMenu);
+        Tv_register_sideMenu = navigationView.findViewById(R.id.tv_register_sideMenu);*/
 
 
     }
@@ -188,6 +191,15 @@ public class HomeScreenActivity extends AppCompatActivity
             public void onClick(View v) {
 
                 Intent intent = new Intent(HomeScreenActivity.this,ServicesScreenActivity.class);
+                startActivity(intent);
+
+            }
+        });
+        btnAddAds.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(HomeScreenActivity.this, CreateAdsActivity.class);
                 startActivity(intent);
 
             }
