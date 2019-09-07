@@ -37,8 +37,20 @@
                    android:text="Take or Choose photos "/>
            </LinearLayout>
 
+           <android.support.v7.widget.RecyclerView
+               android:visibility="gone"
+               android:id="@+id/recyclerview_imageAds"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
            <ImageView
-               android:layout_marginTop="5dp"
+               android:id="@+id/ImageViewAds"
+               android:layout_width="150dp"
+               android:visibility="gone"
+               android:layout_height="150dp"
+               android:layout_gravity="center"/>
+           <ImageView
+               android:id="@+id/ImageAds"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:src="@drawable/photo_ads"
@@ -47,7 +59,7 @@
            <LinearLayout
                android:id="@+id/linealayout_TitleAds"
                android:visibility="invisible"
-               android:layout_marginTop="15dp"
+               android:layout_marginTop="5dp"
                android:orientation="horizontal"
                android:layout_width="match_parent"
                android:layout_height="wrap_content">
@@ -106,6 +118,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:hint="Title"
+                   android:singleLine="true"
                    android:textSize="15sp"
                    android:textColorHint="#5E5C5C"/>
            </LinearLayout>
@@ -234,6 +247,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:hint="Description"
+                   android:singleLine="true"
                    android:inputType="textAutoComplete"
                    android:textSize="15sp"
                    android:textColorHint="#5E5C5C"/>
@@ -365,6 +379,8 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:hint="Name"
+                   android:inputType="text"
+                   android:singleLine="true"
                    android:textSize="15sp"
                    android:textColorHint="#5E5C5C"/>
            </LinearLayout>
@@ -431,6 +447,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:hint="Email"
+                   android:singleLine="true"
                    android:inputType="textEmailAddress"
                    android:textSize="15sp"
                    android:textColorHint="#5E5C5C"/>
@@ -498,6 +515,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:hint="Mobile"
+                   android:singleLine="true"
                    android:inputType="number"
                    android:textSize="15sp"
                    android:textColorHint="#5E5C5C"/>
