@@ -21,6 +21,7 @@ public class HomeScreenActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     NavigationView navigationView;
+    Toolbar toolbar;
     TextView Tv_login_sideMenu, Tv_register_sideMenu;
     LinearLayout linearlayout_PropertiesAndBuild, linearLayout_Vehicles, linearlayout_mobils, linearlayout_electronic,
             linearlayout_homeAndGarden, linearlayout_fashions, linearlayout_kids, linearlayout_pets, linearlayout_SportingAndBikes,
@@ -35,20 +36,17 @@ public class HomeScreenActivity extends AppCompatActivity
 
         HomeScreenActivity.this.setTitle("OLX");
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
 
         DivineView();
         SetonClickLisner();
 
-         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
 
 
 
@@ -57,6 +55,13 @@ public class HomeScreenActivity extends AppCompatActivity
 
     private void DivineView() {
 
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+        View headerLayout = navigationView.getHeaderView(0);
+        Tv_login_sideMenu = headerLayout.findViewById(R.id.tv_login_sideMenu);
+        Tv_register_sideMenu = headerLayout.findViewById(R.id.tv_register_sideMenu);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         linearlayout_PropertiesAndBuild = findViewById(R.id.linearlayout_PropertiesAndBuild);
         linearLayout_Vehicles = findViewById(R.id.linearLayout_vehicles);
         linearlayout_mobils = findViewById(R.id.linearlayout_mobils);
@@ -71,8 +76,7 @@ public class HomeScreenActivity extends AppCompatActivity
         linearlayout_business = findViewById(R.id.linearlayout_business);
         linearlayout_services = findViewById(R.id.linearlayout_services);
         btnAddAds = findViewById(R.id.btnAddAds);
-        /*Tv_login_sideMenu = drawer.findViewById(R.id.tv_login_sideMenu);
-        Tv_register_sideMenu = drawer.findViewById(R.id.tv_register_sideMenu);*/
+
 
 
     }
@@ -205,7 +209,7 @@ public class HomeScreenActivity extends AppCompatActivity
 
             }
         });
-     /* Tv_login_sideMenu.setOnClickListener(new View.OnClickListener() {
+     Tv_login_sideMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -222,7 +226,7 @@ public class HomeScreenActivity extends AppCompatActivity
                 startActivity(intent);
 
             }
-        });*/
+        });
 
 
     }
